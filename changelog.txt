@@ -1,0 +1,35 @@
+Dec 18th 2006 - version 1.1
+
+1. Fixed some padding issues and list style type issues in the comment section.
+2. Fixed theme url in stylesheet and footer
+3. Changed h3 headers in posts
+
+Dec 19th 2006 - version 1.2
+
+1. Fixed all the meta links, they were pointing to my site, also changed everything to rss2 feeds
+2. Changed all <?php bloginfo('siteurl'); ?> to <?php echo get_settings('home'); ?>/ as some websites were sending out 404s
+3. Updated the 404 page
+4. Added a date stamp into the archive page
+5. Added in (but commented out) a by author line in archive.php, index.php, single.php, and search.php
+6. Increased the left padding on unordered lists and gave it a 3x3 gray bullet, also increased the padding on ordered lists because when you had more than 10 bullets half the number got cutout.
+
+Dec 19th 2006 - version 1.3
+
+1. Added overflow: auto; to the commentlist li tag and the .entry tag, this way if you have a really long string of letters without any spaces in between them, no horizontal scrollbars are created.
+2. Added some more content in the FAQ section (where the theme options should be).
+
+Dec 20th 2006 - version 1.4
+
+1. Changed screenshot size from 300x225 pixels to 300x250 pixels
+2. Commented out the author section in archive.php, index.php, single.php, and search.php using php comments instead of html comments. This way wordpress doesn't actually call the function.
+3. Updated the FAQ (where the theme options should be) to reflect change #2
+4. Took out overflow: auto, and height: 1% away from the .main tag, because when the size of the page is massively large (ie) the wordpress themes post which has 850+ comments) everything breaks in all browsers. 
+5. Took out the border-bottom on individual comments and replaced it with a repeating dot image of the colour. This is because at varying font sizes the border would disappear unless it was at least 2px thick, so I replaced it with something more consistent.
+6. Changed the login / logout part in the sidebar to be dynamic, before it only listed logout regardless of whether you were actually logged in or not.
+
+January 10th 2006
+
+1. Fixed a couple spelling mistakes all over the place
+2. Added better documentation of any css hacks used in the stylesheet
+3. Added horizontal lines to separate sections of the page, they only appear when the stylesheet has been disabled
+4. Added some more information in the FAQ (where the theme options should be)

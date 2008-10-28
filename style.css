@@ -1,0 +1,86 @@
+
+html 				{color:  #4c4c4c;background : #fff;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td 
+					{margin : 0;padding : 0;}
+body 				{font-size : 14px;font-family : Helvetica, Verdana, Arial, sans-serif;}
+table 				{border-collapse : collapse;border-spacing : 0;}
+fieldset, img 		{border : 0;}
+address, caption, cite, code, dfn, em, strong, th, var 
+					{font-style : normal;font-weight : normal;}
+li 					{list-style : none;}
+caption, th 		{text-align : left;}
+
+q:before, q:after 	{content : '';}
+abbr, acronym 		{border : 0;font-variant : normal;}
+sup 				{vertical-align : text-top;}
+sub 				{vertical-align : text-bottom;}
+input, textarea, select 
+					{font-family : inherit;font-size : inherit;font-weight : inherit;}
+legend 				{color : #000;}
+
+
+h1, h2, h3, h4, h5, h6 
+									{font-size : 100%;font-weight : normal;}
+h1 									{line-height : 1.2em;color : #ff0080;font-weight : bold;font-size : 1.64em;}
+h2 									{color : #4c4c4c;font-size : 0;font-weight : bold;visibility : hidden;}
+p 									{color : #4c4c4c;line-height : 1em;font-size : 0.86em;font-weight : bold;}
+a 									{color : #ff0080;text-decoration : none;}
+a:hover 							{background-color : #ff0080;color : white;}
+strong								{line-height : 1.2em;color : #ff0080;font-weight : bold;font-size : 1.64em;}
+
+
+
+.headercontainer				{margin-top : 1em;margin-right : auto;margin-left : auto;width : 57.14em;}
+.header 						{width : 57.14em; overflow: hidden;}
+.petenawara 					{text-transform: lowercase; margin-bottom: .2em;margin-left : -0.03em;position : relative;z-index : 0;color : #ff0080;font-weight : bold;font-size : 3em;float : left;}
+.fineartist 					{text-transform: lowercase; position : relative;color : #4c4c4c;font-size : 1.43em;font-weight : bold;top : 0.85em;}
+.pinkcontainer 					{margin-top : -0.5em;width : 57.14em;margin-right : auto;margin-left : auto;}
+.pinkline 						{background-color : #ff0080;z-index : 1;position : relative;float : left;height : 0.29em;width : 43.85em;}
+
+
+.sidebar				{text-align : right;float : right;height : auto;width : 13.14em;}
+.sidebar a:link			{color : #4c4c4c;width : 15em;display : inline-block;text-decoration : none;}
+.sidebar a:hover 		{color : #ffffff;display : inline-block;text-decoration : none;}
+.sidebar ul 			{}
+.sidebar li 			{line-height : 1.3em;text-transform : uppercase;font-weight : bold;font-size : 0.86em;}
+.sidebarposts li 		{font-size : 0.71em;}
+.sidebarposts a:link 	{color : #ff0080;width : 18.4em;display : inline-block;}
+.sidebarposts a:hover 	{color : #ffffff;width : 18.4em;display : inline-block;}
+.children a:link 		{color : #ff0080;width : 18.4em;display : inline-block;}
+.children a:hover 		{color : #ffffff;width : 18.4em;display : inline-block;}
+.children li 			{color : #ff0080;text-transform : uppercase;font-weight : bold;line-height : 1.3em;font-size: 0.83em;}
+.children li:hover 		{background-color : #ff0080;color : white;}
+.new 					{color : #4c4c4c;font-size : 0.71em;display : inline;font-style : italic;}
+.special a:link 		{color : #ff0080;display : inline-block;}
+.special a:hover 		{color : #ffffff;display : inline-block;}
+.special li 			{color : #ff0080;text-transform : uppercase;font-weight : bold;line-height : 1.3em;font-size: 0.63em;}
+.special li:hover 		{background-color : #ff0080;color : white;}
+
+
+
+.select 						{color : #ffffff;}
+.container 						{margin-top : -0.6em;width : 57.14em;margin-right : auto;margin-left : auto;}
+.content 						{z-index : 1;position : relative;float : left;height : auto;width : 44em;}
+.content img 					{z-index : 1;border-color : #4c4c4c;border-style : solid;border-width : 0.57em;height : auto;max-width : 50em;min-width : 50em;}
+.frontimage img 				{z-index : 1;border-color : #4c4c4c;border-style : solid;border-width : 0.57em;height : auto;max-width : 50em;min-width : 50em;}
+.metadata 						{float : none;line-height : 0.86em;color : #ff0080;font-weight : bold;font-size : 0.86em;}
+.newestwork 					{text-align : right;border-left-color : #4c4c4c;border-left-style : solid;border-left-width : 0.21em;border-top-color : #4c4c4c;border-top-style : solid;border-top-width : 0.21em;left : 19.7em;margin-bottom : -1em;font-weight : bold;font-size : 1.64em;top : 0;position : absolute;display : inline-block;background-color : #4c4c4c;color : white;}
+.newestwork a 					{color : #ffffff;}
+.newestwork a:hover 			{background-color : #ff0080;border-top-color : #ff0080;border-top-style : solid;border-top-width : 0.21em;}
+.alt 							{background-color : #eeeeee;}
+.commentlist 					{width : 43.85em;}
+.comment_number 				{color : #4c4c4c;line-height : 1em;font-size : 0.86em;font-weight : bold;}
+.comment_author					{color : #4c4c4c;line-height : 1em;font-size : 0.86em;font-weight : bold;}
+.notfound						{text-align: center; float: none; line-height: 2em; font-weight: bold; font-size: 1em; background-color: #474747; color: #ffffff;height: auto;width : 43.85em;}
+
+
+.footercontainer 						{margin-top : -0.6em;width : 57.14em;margin-right : auto;margin-left : auto;}
+.footer 						{z-index : 1;position : relative;float : left;height : auto;width : 44em;}
+
+
+
+.clearfix:after 					{content : ".";display : block;clear : both;visibility : hidden;line-height : 0;height : 0;}
+.clearfix 							{display : inline-block;}
+html[xmlns] .clearfix 				{display : block;}
+* html .clearfix 					{height : 1%;}
+* 									{margin : 0;padding : 0;}
